@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calendar</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Serif" rel="stylesheet">
+  </head>
+
+  <body onload="makeCalendar()">
+      <div class="calendar">
+        <div class="month">Month</div>
+        <div class="year">Year</div>
+        <div class="days">
+          <div class="weekdays"></div>
+          <div class="cal-row" data-r="1"></div>
+          <div class="cal-row" data-r="2"></div>
+          <div class="cal-row" data-r="3"></div>
+          <div class="cal-row" data-r="4"></div>
+          <div class="cal-row" data-r="5"></div>
+          <div class="cal-row" data-r="6"></div>
+        </div>
+      </div>
+      <div class="swipe"><span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="glyphicon glyphicon-chevron-right"></span></div>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

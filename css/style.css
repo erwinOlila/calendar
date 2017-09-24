@@ -1,0 +1,112 @@
+body {
+  background-color: #88c11f;
+}
+
+
+.colorize {
+  color: green;
+}
+
+.year {
+  position: absolute;
+  left: 130%;
+  top: -20%;
+  font-size: 1500%;
+  margin-left: -230px;
+  opacity: 0.1;
+  font-family: 'Noto Serif', serif;
+  color: white;
+}
+
+.month {
+  font-size: 350%;
+  font-family: 'Abril Fatface', cursive;
+  margin-bottom: 20px;
+  color: #aafc55;
+}
+
+.calendar {
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+}
+
+.days{
+
+}
+
+.day {
+  padding-top: 10px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: solid #afdb81 1px;
+  font-size: 20px;
+  color: white;
+  opacity: 0.6;
+}
+
+.swipe {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+.glyphicon {
+  font-size: 200%;
+  color: #afdb81;
+}
+
+.colorize {
+  color: white;
+  opacity: 0.8;
+}
+
+.glyphicon-chevron-left {
+  float: left;
+}
+
+.glyphicon-chevron-right {
+  float: right;
+}
+
+.weekdays {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e2e8dc;
+  opacity: 0.8;
+}
+
+.day {
+
+}
+
+.today {
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: left;
+  opacity: 0.8;
+}
+
+.extra {
+  color: gray;
+  font-style: italic;
+  font-size: 120%;
+  padding-top: 13px;
+}
+
+.days-name {
+  display: inline-block;
+  width: 50px;
+  border: 1px solid #afdb81;
+  font-weight: bold;
+}
